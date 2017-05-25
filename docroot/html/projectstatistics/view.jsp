@@ -5,20 +5,27 @@
 <portlet:defineObjects />
 
 
-<h1 id="myTargetElement"> </h1> 
-<h1>명 ㅁㅇ라먼ㅇ리ㅏ</h1>
 
- <script>
- 
- 
-var options = {
-	useEasing : true, 
-	useGrouping : true, 
-	separator : ',', 
-	decimal : '.', 
-};
-var demo = new CountUp("myTargetElement", 0, 3662, 0, 1, options);
-demo.start();
+<div class="container">
 
- 
- </script>
+		<h1>Hiiiii</h1>
+		<div class="span4">
+			<h1 id="myTargetElement"> </h1> 
+			<h2>Users</h2>
+		</div>
+		<div class="span4">
+			<h1 id="myTargetElement2"> </h1> 
+			<h2>Simulations</h2>
+		</div>
+		<div class="span4">
+			<h1 id="myTargetElement3"> </h1> 
+			<h2>Contents</h2>
+		</div>
+
+</div>
+
+
+<script>
+
+
+</script>
